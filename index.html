@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>School | General Information</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script>https://cdn.tailwindcss.com</script>
+    // Optional: Tailwind config for a minimal brand look
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50:  '#f5f8ff',
+              100: '#e6edff',
+              200: '#c7d6ff',
+              300: '#a8beff',
+              400: '#7d9bff',
+              500: '#5c7fff',
+              600: '#3e61f2',
+              700: '#304ecc',
+              800: '#243ba3',
+              900: '#1c2d80'
+            }
+          },
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui', 'Segoe UI', 'Inter', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    /* Minimal focus styling for accessibility */
+    :focus-visible { outline: 3px solid #5c7fff; outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <!-- Brand -->
+        <a href="#" classclass="h-8 w-8 rounded-md bg-brand-600"></div>
+          <span class="text-sm font-semibold tracking-wide text-slate-900">Your School Name</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-8 text-sm">
+          <a href="#about" class    #programsPrograms</a>
+          <a href="#admissions" class="text-slate-600 hover:text-slate         #contactContact</a>
+          <a href="#" class="rounded-md bg-brand-600 px-3 py-1.utton -->
+        <button id="menuBtn" class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-slate-600 hover:bg-slate-100" aria-label="Open menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+      <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-2">
+        <a href="#about" class="py-2 textPrograms</a>
+        #admissionsAdmissions</a>
+        <a href="#campus" class        #contactContact</a>
+        <a href="#" class="mt-2 rounded-md bg-brand-600 px-3 py-2 text-center font-medium text-white hover:bg-brand-"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col-reverse lg:flex-row items-center gap-8 py-16 lg:py-24">
+        <!-- Left: Text -->
+        <div class="flex-1">
+          <span class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs text-slate-600">
+            <span class="h-2 w-2 rounded-full bg-brand-600"></span> Est. YYYY
+          </span>
+          <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
+            Empowering Students to Learn, Lead, and Succeed
+          </h1>
+          <p class="mt-4 max-w-2xl text-slate-600">
+            [Hero subtitle placeholder] Briefly introduce the school’s mission and value proposition.
+            Keep it concise and inspiring.
+          </p>
+          <div class="mt-6 flex flex-wrap items-center gap-3">
+            <a href="#admissions" class="rounded-md bg-brand-600 px-5 py-2.5 font-mediumded-md border border-slate-300 px-5 py-2.5 font-medium text-slate-700 hover:bgt-slate-500">
+            <div class="flex items-center gap-2">
+              <div class="h-6 w-6 rounded bg-slate-200"></div>
+              <span>[Accreditation placeholder]</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="h-6 w-6 rounded bg-slate-200"></div>
+              <span>[Ranking/Highlight placeholder]</span>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Image -->
+        <div class="flex-1">
+          <div class="aspect-[4/3] w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100">
+            <!-- Replace src with your campus image -->
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop"
+                 alt="Campus placeholder" class="h-full wss="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center">
+          <h2 class="text-2xl font-bold text-slate-900 sm:text-3xl">About Our School</h2>
+          <p class="mt-4 text-slate-600">
+            [About text placeholder] Write 3–4 sentences about the school’s history, mission,
+            learning philosophy, community impact, and academic excellence.
+          </p>
+          <div class="mt-6 grid grid-cols-2 gap-4 text-sm">
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-3xl font-extrabold text-slate-900">#</div>
+              <div class="mt-1 text-slate-600">Years of Excellence</div>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-3xl font-extrabold text-slate-900">#</div>
+              <div class="mt-1 text-slate-600">Students Enrolled</div>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-3xl font-extrabold text-slate-900">#</div>
+              <div class="mt-1 text-slate-600">Faculty Members</div>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-3xl font-extrabold text-slate-900">#%</div>
+              <div class="mt-1 text-slate-600">Graduate Placement</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div class="grid w-full grid-cols-2 gap-4">
+            <div class="aspect-[4/3] rounded-lg border border-slate-200 bg-slate-100 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=900&auto=format&fit=crop"
+                   alt="Classroom placeholder" class="h-full w-fullder-slate-200 bg-slate-100 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=900&auto=format&fit=crop"
+                   alt="Library placeholder" classded-lg border border-slate-200 bg-slate-100 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=900&auto=format            </div>
+            <div class="aspect-[4/3] rounded-lg border border-slate-200 bg-slate-100 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=900&auto=format&fit=crop"
+                  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="border-y border-slate-200 bg-slate-50 py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col items-start gap-6 md:flex-row md:items-end md:justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 sm:text-3xl">Academic Programs</h2>
+          <p class="mt-2 text-slate-600">[Programs overview placeholder] Summarize key departments and degrees.</p>
+        </div>
+        <a href="#" class="rounded-md border border-slate-300 px-3 py-sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card -->
+        <article class="flex flex-col rounded-xl border border-slate-200 bg-white">
+          <div class="aspect-[16/9] overflow-hidden rounded-t-xl bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+                 alt class="flex flex-1 flex-col gap-2 p-5">
+            <h3 class="text-lg font-semibold text-slate-900">Program Title</h3>
+            <p class="text-sm text-slate-600">[Short description placeholder] What students learn and career paths.</p>
+            <div class="mt-auto pt-2">
+              <a href="#" class="text-sm    </div>
+          </div>
+        </article>
+
+        <article class="flex flex-col rounded-xl border border-slate-200 bg-white">
+          <div class="aspect-[16/9] overflow-hidden rounded-t-xl bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1517976487492-576ea6b2936d?q=80to=format&fit=crop
+          </div>
+          <div class="flex flex-1 flex-col gap-2 p-5">
+            <h3 class="text-lg font-semibold text-slate-900">Program Title</h3>
+            <p class="text-sm text-slate-600">[Short description placeholder] Notable labs, facilities, or tracks.</p>
+            <div class="mt-auto pt-2">
+              #Learn more →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="flex flex-col rounded-xl border border-slate-200 bg-white">
+          <div class="aspect-[16/9] overflow-hidden rounded-t-xl bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1200&auto=format&fit=crop"
+                <div class="flex flex-1 flex-col gap-2 p-5">
+            <h3 class="text-lg font-semibold text-slate-900">Program Title</h3>
+            <p class="text-sm text-slate-600">[Short description placeholder] Outcomes and partnerships.</p>
+            <div class="mt-auto pt-2">
+              #Learn more →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions -->
+  <section id="admissions" class="py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div class="flex flex-col justify-center">
+          <h2 class="text-2xl font-bold text-slate-900 sm:text-3xl">Admissions</h2>
+          <p class="mt-4 text-slate-600">
+            [Admissions overview placeholder] Include requirements, timelines, scholarships, and financial aid.
+          </p>
+          <ul class="mt-6 space-y-3 text-sm text-slate-700">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-600 text-white">1</span>
+              Submit application form
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-600 text-white">2</span>
+              Provide transcripts and documents
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-600 text-white">3</span>
+              Entrance exam / interview (if applicable)
+            </li>
+          </ul>
+          <div class="mt-6 flex gap-3">
+            <a href="#" class="rounded-md bg-brand-600 px-4 py-2 text-sm font-medium text-white
+        <div class="flex items-center">
+          <div class="aspect-[4/3] w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1519455953755-af066f52f1ea?q=80&w=1200&auto=format&fit=crop"
+                 alt="Admissions placeholder" class="h-full w-full objectLife -->
+  <section id="campus" class="border-y border-slate-200 bg-slate-50 py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 sm:text-3xl">Campus Life</h2>
+          <p class="mt-2 text-slate-600">[Clubs, athletics, arts, events, and student services overview.]</p>
+        </div>
+        <a href="#" class="hidden sm:inline-block rounded-md border border-slate-300 px-3 py-2 text-sm font-medium text-slate-700 hoveres using flexbox -->
+        <div class="flex flex-col rounded-xl border border-slate-200 bg-white p-5">
+          <div class="h-10 w-10 rounded-md bg-brand-600"></div>
+          <h3 class="mt-4 font-semibold text-slate-900">Clubs & Orgs</h3>
+          <p class="mt-1 text-sm text-slate-600">[Clubs description placeholder]</p>
+        </div>
+        <div class="flex flex-col rounded-xl border border-slate-200 bg-white p-5">
+          <div class="h-10 w-10 rounded-md bg-brand-600"></div>
+          <h3 class="mt-4 font-semibold text-slate-900">Sports</h3>
+          <p class="mt-1 text-sm text-slate-600">[Athletics description placeholder]</p>
+        </div>
+        <div class="flex flex-col rounded-xl border border-slate-200 bg-white p-5">
+          <div class="h-10 w-10 rounded-md bg-brand-600"></div>
+          <h3 class="mt-4 font-semibold text-slate-900">Arts & Culture</h3>
+          <p class="mt-1 text-sm text-slate-600">[Arts description placeholder]</p>
+        </div>
+        <div class="flex flex-col rounded-xl border border-slate-200 bg-white p-5">
+          <div class="h-10 w-10 rounded-md bg-brand-600"></div>
+          <h3 class="mt-4 font-semibold text-slate-900">Support Services</h3>
+          <p class="mt-1 text-sm text-slate-600">[Counseling, advising, wellness placeholder]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 lg:py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-2">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 sm:text-3xl">Get in Touch</h2>
+          <p class="mt-2 text-slate-600">[Contact intro placeholder] Address, email, phone, and office hours.</p>
+
+          <div class="mt-6 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-sm font-medium text-slate-900">Address</div>
+              <p class="mt-1 text-sm text-slate-600">[Street, City, ZIP]</p>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-sm font-medium text-slate-900">Email</div>
+              <p class="mt-1 text-sm text-slate-600">[admissions@example.edu]</p>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-sm font-medium text-slate-900">Phone</div>
+              <p class="mt-1 text-sm text-slate-600">[+63 (XXX) XXX XXXX]</p>
+            </div>
+            <div class="rounded-lg border border-slate-200 p-4">
+              <div class="text-sm font-medium text-slate-900">Office Hours</div>
+              <p class="mt-1 text-sm text-slate-600">[Mon–Fri, 9:00 AM – 5:00 PM]</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="rounded-xl border border-slate-200 bg-white p-6">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label class="mb-1 block text-sm font-medium text-slate-700">First name</label>
+              <input type="text" placeholder="[Your first name]" class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm placeholder-slate-400 focus:border-brand-600 focus:ring-0" />
+            </div>
+            <div>
+              <label class="mb-1 block text-sm font-medium text-slate-700">Last name</label>
+              <input type="text" placeholder="[Your last name]" class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm placeholder-slate-400 focus:border-brand-600 focus:ring-0" />
+            </div>
+            <div class="sm:col-span-2">
+              <label class="mb-1 block text-sm font-medium text-slate-700">Email</label>
+              <input type="email" placeholder="[you@example.com]" class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm placeholder-slate-400 focus:border-brand-600 focus:ring-0" />
+            </div>
+            <div class="sm:col-span-2">
+              <label class="mb-1 block text-sm font-medium text-slate-700">Message</label>
+              <textarea rows="4" placeholder="[How can we help?]" class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm placeholder-slate-400 focus:border-brand-600 focus:ring-0"></textarea>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-between">
+            <label class="inline-flex items-center gap-2 text-sm text-slate-600">
+              <input type="checkbox" class="h-4 w-4 rounded border-slate-300 text-brand-600 focus:ring-brand-600" />
+              I agree to the privacy policy
+            </label>
+            <button type="button" class="rounded-md bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white py-10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+        <div class="flex items-center gap-2">
+          <div class="h-6 w-6 rounded bg-brand-600"></div>
+          <span class="text-sm font-semibold text-slate-900">Your School Name</span>
+        </div>
+        <p class="text-center text-xs text-slate-500">© <span id="year"></span> Your School Name. All rights reserved.</p>
+        <div class="flex items-center gap-4 text-sm">
+          <a href="#" class="text-slate-600 hover:text#Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tiny JS: mobile menu + year -->
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(!isOpen));
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
